@@ -51,7 +51,7 @@ optionsfasterrcnn = [
     ];
 
 % load('ambulance.mat')
-% load('allLabels.mat')
+load('allLabels.mat')
 
 %  fasterrcnn = trainFasterRCNNObjectDetector(labelall, net, optionsfasterrcnn, ...
 %         'NegativeOverlapRange', [0 0.3], ...
