@@ -3,8 +3,8 @@ clc; clear all;close all;
 %% Setting Directory
 % input = '../Input/Police Cars/';
 % input = '../Input/Fire Trucks/';
-input = '../Input/Ambulance/';
-% input = '../Input/Test_Images/';
+% input = '../Input/Ambulance/';
+input = '../Input/Test_Images/';
 input = imageDatastore(input,'IncludeSubfolders',true,'LabelSource','foldernames');
 
 %% Loading pretrained network 
